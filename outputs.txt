@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TLE-ICT Outputs</title>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+
+<style type="text/css">
+body {
+  font-family: 'Gaegu', cursive;
+  background-image: url("yellow.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  text-align: center;
+  color: #001f4d;
+}
+
+h1 {
+  background-color: #fcf1ae;
+  padding: 20px 40px;
+  color: #001f4d;
+  font-size: 50px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+h2 {
+  background-color: #ff99b8;
+  color: #001f4d;
+  font-size: 35px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.section {
+  background-color: #fcf1ae;
+  border: 4px solid #ff99b8;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  text-align: left;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+ul {
+  text-align: left;
+  margin-left: 40px;
+}
+
+a.back {
+  display: inline-block;
+  background-color: #ff99b8;
+  color: #001f4d;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+a.back:hover {
+  color: #fcf1ae;
+  text-decoration: underline;
+}
+
+hr.rounded {
+  border-top: 8px solid #001f4d;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.lesson-output {
+  background-color: #fcf1ae;
+  border: 4px solid #ff99b8;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.lesson-output h3 {
+  font-size: 28px;
+  color: #001f4d;
+  background-color: #ff99b8;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+
+.img-box {
+  background-color: #fff9e6;
+  border: 3px dashed #ff99b8;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px auto;
+  width: 90%;
+}
+
+.output-img {
+  width: 100%;
+  max-width: 750px;
+  border: 5px solid #ff99b8;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+
+<body>
+
+<h1>TLE-ICT Outputs</h1> <br>
+
+<!-- Lesson 1 -->
+<h2>Lesson 1: Introduction to CSS</h2>
+<div class="section">
+  <p><strong>What is CSS?</strong><br>
+  CSS stands for <strong>Cascading Style Sheets</strong>. It defines how HTML elements are displayed on screens and helps separate content from design. It makes websites easier to maintain and style consistently.</p>
+
+  <p><strong>Why Use CSS?</strong></p>
+  <ul>
+    <li>Controls layout, colors, and fonts</li>
+    <li>Keeps design consistent across pages</li>
+    <li>Saves time with reusable styles</li>
+    <li>Makes sites responsive and accessible</li>
+  </ul>
+
+  <p><strong>Layers of a Webpage:</strong></p>
+  <ul>
+    <li><strong>Content Layer (HTML):</strong> Structure and information.</li>
+    <li><strong>Presentation Layer (CSS):</strong> Design and visual style.</li>
+    <li><strong>Behavior Layer (JavaScript):</strong> Interactivity and user actions.</li>
+  </ul>
+
+  <p><strong>Benefits of CSS:</strong></p>
+  <ul>
+    <li>Saves time and reduces repetitive coding</li>
+    <li>Easy maintenance and updates</li>
+    <li>Improves website appearance and layout</li>
+  </ul>
+
+  <p><strong>Capabilities of CSS:</strong></p>
+  <ul>
+    <li>Update layouts quickly</li>
+    <li>Position and layer elements</li>
+    <li>Create custom tags and effects</li>
+  </ul>
+
+  <p><strong>Advantages of CSS:</strong></p>
+  <ul>
+    <li>Faster loading and easier updates</li>
+    <li>Reusable for multiple pages</li>
+    <li>Flexible and user-friendly design</li>
+  </ul>
+
+  <p><strong>Prerequisite:</strong> Basic understanding of HTML or XHTML before learning CSS.</p>
+</div>
+
+<hr class="rounded">
+
+<!-- Lesson 2 -->
+<h2>Lesson 2: Inline, Internal, and External Style Sheets</h2>
+
+<div class="section">
+  <p><strong>What are the Three Types of CSS?</strong><br>
+  CSS can be added to HTML in three main ways: Inline, Internal (or Embedded), and External. Each type has its own purpose and level of convenience when styling web pages.</p>
+
+  <p><strong>1. Inline Style Sheet</strong><br>
+  Inline CSS is written directly within an HTML tag using the <code>style</code> attribute. It affects only that specific element. While it’s quick for small edits, it’s not recommended for large websites because it can become repetitive and hard to manage.</p>
+
+  <p><strong>Example:</strong>  
+  <code>&lt;p style="color: pink; text-align: center;"&gt;Hello World&lt;/p&gt;</code></p>
+
+  <p><strong>2. Internal (Embedded) Style Sheet</strong><br>
+  Internal CSS is written inside the <code>&lt;style&gt;</code> tag within the HTML document’s <code>&lt;head&gt;</code> section. It applies to the entire page and is easier to manage than inline CSS, but changes only affect that one file.</p>
+
+  <p><strong>Example:</strong><br>
+  <code>&lt;style&gt; p { color: blue; } &lt;/style&gt;</code></p>
+
+  <p><strong>3. External Style Sheet</strong><br>
+  External CSS is written in a separate <code>.css</code> file and linked to the HTML using the <code>&lt;link&gt;</code> tag. This is the most efficient method for large or multi-page websites because one file can control the style for all pages.</p>
+
+  <p><strong>Example:</strong><br>
+  <code>&lt;link rel="stylesheet" href="style.css"&gt;</code></p>
+
+  <p><strong>Advantages of Each Type:</strong></p>
+  <ul>
+    <li><strong>Inline:</strong> Quick and specific to one element.</li>
+    <li><strong>Internal:</strong> Easy to apply styles for a single page.</li>
+    <li><strong>External:</strong> Best for consistency and reusability across multiple pages.</li>
+  </ul>
+
+  <p><strong>Summary:</strong><br>
+  Inline CSS is best for one-time styling, Internal CSS for small projects, and External CSS for large or multi-page websites. External style sheets are preferred in real-world web design because they save time and keep code clean.</p>
+</div>
+
+
+<hr class="rounded">
+
+<!-- Lesson 3 -->
+<div class="lesson-output">
+<h2>Lesson 3: Display Property, Div, and Span</h2> <br>
+
+  <h3> My Code</h3>
+  <div class="img-box">
+    <img src="L3A.jpg" alt="Lesson 3 code" class="output-img">
+  </div>
+<div class="img-box">
+    <img src="L3B.jpg" alt="Lesson 3 code" class="output-img">
+  </div>
+<div class="img-box">
+    <img src="L3C.jpg" alt="Lesson 3 code" class="output-img">
+  </div>
+
+  <h3> Output Result</h3>
+  <div class="img-box">
+    <img src="L3O.jpg" alt="Lesson 3 output" class="output-img">
+  </div>
+</div>
+
+<hr class="rounded">
+
+<!-- Lesson 4 -->
+<div class="lesson-output">
+<h2>Lesson 4: CSS Classes, Class Selectors, and Grouping Selectors</h2> <br>
+
+  <h3> My Code</h3>
+  <div class="img-box">
+    <img src="L4A.jpg" alt="Lesson 4 code" class="output-img">
+  </div>
+<div class="img-box">
+    <img src="L4B.jpg" alt="Lesson 4 code" class="output-img">
+  </div>
+<div class="img-box">
+    <img src="L4C.jpg" alt="Lesson 4 code" class="output-img">
+  </div>
+
+  <h3> Output Result</h3>
+  <div class="img-box">
+    <img src="L4O.jpg" alt="Lesson 4 output" class="output-img">
+  </div>
+</div>
+
+<hr class="rounded">
+
+<!-- Lesson 5 -->
+<div class="lesson-output">
+<h2>Lesson 5: CSS Selectors</h2> <br>
+
+  <h3> My Code</h3>
+  <div class="img-box">
+    <img src="L5A.jpg" alt="Lesson 5 code" class="output-img">
+  </div>
+<div class="img-box">
+    <img src="L5B.jpg" alt="Lesson 5 code" class="output-img">
+  </div>
+<div class="img-box">
+    <img src="L5C.jpg" alt="Lesson 5 code" class="output-img">
+  </div>
+
+<h3> Output Result</h3>
+  <div class="img-box">
+    <img src="L5O.jpg" alt="Lesson 5 output" class="output-img">
+  </div>
+
+  <div class="img-box">
+    <img src="L5OO.jpg" alt="Lesson 5 output" class="output-img">
+  </div>
+</div>
+
+
+<hr class="rounded">
+
+<!-- Lesson 6 -->
+<div class="lesson-output">
+<h2>Lesson 6: CSS Dimensions and Pseudo-classes</h2> <br>
+
+  <h3> My Code</h3>
+  <div class="img-box">
+    <img src="L6A.jpg" alt="Lesson 6 code" class="output-img">
+  </div>
+<div class="img-box">
+    <img src="L6B.jpg" alt="Lesson 6 code" class="output-img">
+  </div>
+<div class="img-box">
+    <img src="L6C.jpg" alt="Lesson 6 code" class="output-img">
+  </div>
+
+<h3> Output Result</h3>
+  <div class="img-box">
+    <img src="L6O.jpg" alt="Lesson 6 output" class="output-img">
+  </div>
+
+
+<hr class="rounded">
+
+
+<h2>What I’ve Learned</h2>
+
+<div class="section">
+  <p><strong>Lesson 1:</strong> I learned that CSS is used to design and style web pages. It helps separate the content from the presentation, making websites more organized and visually appealing.</p>
+
+  <p><strong>Lesson 2:</strong> I learned the differences between the three ways of adding CSS. Inline is for quick changes, Internal is for styling one page, and External is the most efficient for managing multiple pages.</p>
+
+  <p><strong>Lesson 3:</strong> I learned how the display property changes how elements appear on a page, and how &lt;div&gt; and &lt;span&gt; help group or style specific parts of content.</p>
+
+  <p><strong>Lesson 4:</strong> I learned that classes can style multiple elements at once, and grouping selectors make the code cleaner by applying the same style to different tags.</p>
+
+  <p><strong>Lesson 5:</strong> I learned the six types of CSS selectors — element, class, ID, universal, group, and attribute — and how each targets elements in different ways.</p>
+
+  <p><strong>Lesson 6:</strong> I learned how to control an element’s width, height, and visibility, and how pseudo-classes like :hover and :active change the appearance of links when interacted with.</p>
+</div>
+
+<hr class="rounded">
+
+  
+
+<a href="ICT.html" class="back">Back to TLE/ICT Homepage</a>
+
+</body>
+</html>
